@@ -6,7 +6,6 @@
 function tampilNama1 (nama, waktu) {
     return `Halo ${nama}, Selamat ${waktu}`
 }
-
 console.log(tampilNama1("Ani","Pagi"));
 
 // function expression
@@ -30,9 +29,7 @@ const tampilNama5 = () => `Hello World` ;
 console.log(tampilNama5())
 
 // 3. destucturingObj
-
 // 3.1 Destructuring Assignment (bisa dari array dan object)
-
 // Contoh pada Array
 const ternak = ["Ayam", "Bebek", "Kambing", "Domba"]
 const [a, , ternak3, ternak4] = ternak // inilah destruction array
